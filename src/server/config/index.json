@@ -1,11 +1,10 @@
 {
-  "__example_queues": [
+  "queues": [
     {
-      "name": "my_queue",
-      "port": 6381,
+      "name": "WEBHOOK_SERVICE.EXECUTE_WEBHOOK_JOB",
+      "port": 6379,
       "host": "127.0.0.1",
-      "hostId": "AWS Server 2"
+      "hostId": "The Only HostId"
     }
-  ],
-  "queues": []
+  ]
 }
